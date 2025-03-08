@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Local uploads (if any)
+public/uploads/
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# IPFS zip file
+go-ipfs.zip
+
+# Ignore everything in parent directories
+../../*
+../*
+
+# Allow the current directory
+!./*
